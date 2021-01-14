@@ -33,27 +33,35 @@ function generatePassword() {
   var lowercase = confirm("Use lowercase characters?");
   console.log(lowercase);
   if (lowercase == true) {
-    console.log("Includes lowercase true")
     optionChoices.push(lowercaseOption);
   }
   else {
-    console.log("do not include lowercase");
   }
 
   //Include uppercase characters
   var uppercase = confirm("Use uppercase characters?");
   if (uppercase == true) {
-    console.log("includes uppercase");
     optionChoices.push(uppercaseOption);
   }
   else {
-    console.log("do not include uppercase");
   }
 
   //Include special characters
+  var specialCharacters = confirm("Use special characters?");
+  if (specialCharacters == true) {
+    optionChoices.push(specialCharacterOption);
+  }
+  else {
+  }
+
 
   //Include number characters
-
+  var numericCharacters = confirm("Use number characters?");
+  if (numericCharacters == true) {
+    optionChoices.push(numericOption);
+  }
+  else {
+  }
 
   for (i = 0; i < passwordLength; i++) {
     var optionsArray = optionChoices[Math.floor(Math.random() * optionChoices.length)];
