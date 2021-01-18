@@ -21,7 +21,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 USAGE
 When you open the index.html file, a small webpage should look similar to this screenshot:
 
-
+![03-javascript-homework-demo](https://user-images.githubusercontent.com/75180482/104864249-af86a200-58f5-11eb-9d31-8fbd23ce977a.png)
 
 
 CREDITS
